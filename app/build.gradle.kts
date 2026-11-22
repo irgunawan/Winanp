@@ -5,7 +5,7 @@ plugins {
 
 // Signing: pakai keystore dari env (CI) atau file lokal winanp-release.jks.
 // Kalau tidak ada sama sekali, fallback ke debug signing supaya APK tetap bisa dipasang.
-val ksFile = file(System.getenv("WINANP_KEYSTORE") ?: "winanp-release.jks")
+val ksFile = rootProject.file(System.getenv("WINANP_KEYSTORE") ?: "winanp-release.jks")
 val ksPassword = System.getenv("WINANP_KEYSTORE_PASSWORD") ?: "winanp2026"
 val ksAlias = System.getenv("WINANP_KEY_ALIAS") ?: "winanp"
 val ksKeyPassword = System.getenv("WINANP_KEY_PASSWORD") ?: ksPassword
