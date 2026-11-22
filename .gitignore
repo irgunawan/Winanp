@@ -1,0 +1,14 @@
+# Gradle / Android
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+.cxx/
+
+# Keystore & secret
+*.jks
+*.keystore
+keystore.properties

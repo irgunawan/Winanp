@@ -1,0 +1,10 @@
+{
+  "appName": "Winanp",
+  "packageName": "id.irgunawan.winanp",
+  "versionCode": 291,
+  "versionName": "2.91.0",
+  "targetDevice": "Xiaomi Redmi Note 11 (spes/spesn)",
+  "githubRepo": "irgunawan/Winanp",
+  "otaApiUrl": "https://api.github.com/repos/irgunawan/Winanp/releases/latest",
+  "supportedFormats": ["mp3", "flac", "wav", "ogg", "m4a"]
+}
