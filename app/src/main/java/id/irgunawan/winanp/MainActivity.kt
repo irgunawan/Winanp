@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        CrashReporter(this, "Winanp", "1.0").install()
 
         otaUpdater = GithubOtaUpdater(this)
         audioEngine = AudioEngineController(this)
